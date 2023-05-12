@@ -20,11 +20,6 @@ This is a dummy description of this app features
 
 
 **Shipped version:** 2.0.1~ynh1
-
-## Screenshots
-
-![Screenshot of Eleventy](./doc/screenshots/example.jpg)
-
 ## Documentation and resources
 
 * Official app website: <https://www.11ty.dev/>
