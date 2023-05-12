@@ -26,7 +26,7 @@ ynh_script_progression --message="Setting up source files..." --weight=1
 
 ynh_setup_source --dest_dir="$install_dir"
 
-mv "../sources/src/" "$data_dir/src/"
+mv "../sources/src/" "$data_dir/"
 
 #ynh_add_config --template="../sources/index.md" --destination="$data_dir/src/index.md"
 #ynh_add_config --template="../sources/style.css" --destination="$data_dir/src/style.css"
