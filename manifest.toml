@@ -1,0 +1,52 @@
+packaging_format = 2
+
+id = "eleventy"
+name = "Eleventy"
+description.en = "Simpler site generator. Transforms a directory of templates (of varying types) into HTML"
+description.fr = "Simpler site generator. Transforms a directory of templates (of varying types) into HTML"
+
+version = "2.0.1~ynh1"
+
+maintainers = ["eric_G"]
+
+[upstream]
+license = "MIT"
+website = "https://www.11ty.dev/"
+admindoc = "https://www.11ty.dev/docs/"
+code = "https://github.com/11ty/eleventy/"
+
+[integration]
+yunohost = ">= 11.1.19"
+architectures = "all"
+multi_instance = true
+ldap = false
+sso = false
+disk = "50M"
+ram.build = "50M"
+ram.runtime = "50M"
+
+[install]
+    [install.domain]
+    type = "domain"
+
+    [install.init_main_permission]
+    type = "group"
+    default = "visitors"
+
+[resources]
+
+    [resources.sources]
+
+        [resources.sources.main]
+        url = "https://github.com/11ty/eleventy/archive/refs/tags/v2.0.1.tar.gz"
+        sha256 = "8ca03ce7c7980c93acde3fa7d7b916aa85d4ce206c5222cf508188aa4a7649a0"
+        autoupdate.strategy = "latest_github_tag"
+
+    [resources.system_user]
+
+    [resources.install_dir]
+
+    [resources.permissions]
+    main.url = "/"
+
+    [resources.ports]
