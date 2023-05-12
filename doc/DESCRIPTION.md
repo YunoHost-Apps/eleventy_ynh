@@ -1,1 +1,1 @@
-This is a dummy description of this app features
+Eleventy is a simpler static site generator.
