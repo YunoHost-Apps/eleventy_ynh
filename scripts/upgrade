@@ -52,6 +52,21 @@ ynh_add_nginx_config
 env_path="$PATH"
 ynh_add_systemd_config
 
+#=================================================
+# INSTALL ELEVENTY
+#=================================================
+ynh_script_progression --message="Installing $app..." --weight=10
+
+pushd $install_dir
+ 	ynh_use_nodejs
+	ynh_exec_warn_less sudo -u $app env $ynh_node_load_PATH $ynh_npm init -y
+	ynh_exec_warn_less sudo -u $app env $ynh_node_load_PATH $ynh_npm install @11ty/eleventy --save-dev
+popd
+
+#=================================================
+# INTEGRATE SERVICE IN YUNOHOST
+#=================================================
+
 yunohost service add $app --description="Simpler site generator" --log="/var/log/$app/$app.log"
 
 #=================================================
