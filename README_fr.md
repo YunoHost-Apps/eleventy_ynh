@@ -20,11 +20,6 @@ Ceci est une fausse description des fonctionalités de l'app
 
 
 **Version incluse :** 2.0.1~ynh1
-
-## Captures d’écran
-
-![Capture d’écran de Eleventy](./doc/screenshots/example.jpg)
-
 ## Documentations et ressources
 
 * Site officiel de l’app : <https://www.11ty.dev/>
