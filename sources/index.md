@@ -3,4 +3,4 @@ title: Hello world
 layout: "base.njk"
 ---
 
-Hello world
+This is a template, please replace with your content: __INSTALL_DIR__/src/index.md
