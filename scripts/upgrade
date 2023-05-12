@@ -35,6 +35,14 @@ fi
 chown -R $app:www-data "$install_dir"
 
 #=================================================
+# UPGRADE DEPENDENCIES
+#=================================================
+ynh_script_progression --message="Upgrading dependencies..." --weight=5
+
+# Install Nodejs
+ynh_exec_warn_less ynh_install_nodejs --nodejs_version=$nodejs_version
+
+#=================================================
 # REAPPLY SYSTEM CONFIGURATIONS
 #=================================================
 ynh_script_progression --message="Upgrading system configurations related to $app..." --weight=1
@@ -44,7 +52,7 @@ ynh_add_nginx_config
 env_path="$PATH"
 ynh_add_systemd_config
 
-yunohost service add $app --description="A short description of the app" --log="/var/log/$app/$app.log"
+yunohost service add $app --description="Simpler site generator" --log="/var/log/$app/$app.log"
 
 #=================================================
 # START SYSTEMD SERVICE

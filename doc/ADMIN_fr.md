@@ -1,3 +1,2 @@
-Ceci est une fausse doc d'admin pour cette app
-
-Le dossier d'install de l'app est `__INSTALL_DIR__`
+Le répertoire des fichiers : `__DATA_DIR__/src/`
+Le fichier de configuration : `INSTALL_DIR__/.eleventy.js`
