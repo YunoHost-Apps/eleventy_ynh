@@ -1,9 +1,9 @@
 module.exports = function (eleventyConfig) {
-        eleventyConfig.addPassthroughCopy("./src/style.css");
+        eleventyConfig.addPassthroughCopy("__DATA_DIR__/src/style.css");
         return {
                 dir: {
-                        input: "src",
-                        output: "public",
+                        input: "__DATA_DIR__/src",
+                        output: "__DATA_DIR__/public",
                 },
         };
 };
