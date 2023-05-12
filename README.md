@@ -16,7 +16,7 @@ If you don't have YunoHost, please consult [the guide](https://yunohost.org/#/in
 
 ## Overview
 
-This is a dummy description of this app features
+Eleventy is a simpler static site generator.
 
 
 **Shipped version:** 2.0.1~ynh1
