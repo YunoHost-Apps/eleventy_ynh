@@ -16,8 +16,7 @@ Si vous n’avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) po
 
 ## Vue d’ensemble
 
-Ceci est une fausse description des fonctionalités de l'app
-
+Eleventy est un générateur de site statique.
 
 **Version incluse :** 2.0.1~ynh1
 ## Documentations et ressources
