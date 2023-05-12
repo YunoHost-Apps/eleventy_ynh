@@ -3,7 +3,7 @@ packaging_format = 2
 id = "eleventy"
 name = "Eleventy"
 description.en = "Simpler site generator. Transforms a directory of templates (of varying types) into HTML"
-description.fr = "Simpler site generator. Transforms a directory of templates (of varying types) into HTML"
+description.fr = "Générateur de site plus simple. Transforme un répertoire de modèles (de différents types) en HTML"
 
 version = "2.0.1~ynh1"
 
