@@ -3,4 +3,4 @@ title: Hello world
 layout: "base.njk"
 ---
 
-Hello world
+This is a mockup page, please follow the instructions to set up your pages: https://www.11ty.dev/docs/getting-started/
