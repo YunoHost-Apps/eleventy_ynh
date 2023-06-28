@@ -26,9 +26,9 @@ ynh_script_progression --message="Setting up source files..." --weight=1
 
 ynh_setup_source --dest_dir="$install_dir"
 
-#mv -f "../sources/src/" "$data_dir/"
+mv -f "../sources/src/" "$data_dir/"
 
-cp -R "../sources/src/" "$data_dir/src"
+#cp -R "../sources/src/" "$data_dir/src"
 
 chown -R $app:www-data "$install_dir"
 
