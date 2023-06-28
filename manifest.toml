@@ -16,7 +16,7 @@ admindoc = "https://www.11ty.dev/docs/"
 code = "https://github.com/11ty/eleventy/"
 
 [integration]
-yunohost = ">= 11.1.19"
+yunohost = ">= 11.1.21"
 architectures = "all"
 multi_instance = true
 ldap = false
