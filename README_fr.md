@@ -18,7 +18,7 @@ Si vous n’avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) po
 
 Eleventy est un générateur de site statique.
 
-**Version incluse :** 2.0.1~ynh1
+**Version incluse :** 2.0.1~ynh2
 ## Documentations et ressources
 
 * Site officiel de l’app : <https://www.11ty.dev/>
