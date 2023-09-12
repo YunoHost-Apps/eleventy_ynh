@@ -1,5 +1,5 @@
 [Unit]
-Description=Eleventy: Simpler site generator
+Description=Eleventy: simpler site generator
 After=network.target
 
 [Service]
