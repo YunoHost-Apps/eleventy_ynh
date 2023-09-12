@@ -5,7 +5,7 @@ name = "Eleventy"
 description.en = "Simpler site generator. Transforms a directory of templates (of varying types) into HTML"
 description.fr = "Générateur de site plus simple. Transforme un répertoire de modèles (de différents types) en HTML"
 
-version = "2.0.1~ynh1"
+version = "2.0.1~ynh2"
 
 maintainers = ["eric_G"]
 
@@ -16,7 +16,7 @@ admindoc = "https://www.11ty.dev/docs/"
 code = "https://github.com/11ty/eleventy/"
 
 [integration]
-yunohost = ">= 11.1.19"
+yunohost = ">= 11.2"
 architectures = "all"
 multi_instance = true
 ldap = false

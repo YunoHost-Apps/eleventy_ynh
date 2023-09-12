@@ -19,7 +19,7 @@ If you don't have YunoHost, please consult [the guide](https://yunohost.org/#/in
 Eleventy is a simpler static site generator.
 
 
-**Shipped version:** 2.0.1~ynh1
+**Shipped version:** 2.0.1~ynh2
 ## Documentation and resources
 
 * Official app website: <https://www.11ty.dev/>
