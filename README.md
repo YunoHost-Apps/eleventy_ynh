@@ -25,7 +25,7 @@ Eleventy is a simpler static site generator.
 * Official app website: <https://www.11ty.dev/>
 * Official admin documentation: <https://www.11ty.dev/docs/>
 * Upstream app code repository: <https://github.com/11ty/eleventy/>
-* YunoHost documentation for this app: <https://yunohost.org/app_eleventy>
+* YunoHost Store: <https://apps.yunohost.org/app/eleventy>
 * Report a bug: <https://github.com/YunoHost-Apps/eleventy_ynh/issues>
 
 ## Developer info
