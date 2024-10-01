@@ -8,11 +8,8 @@ source /usr/share/yunohost/helpers
 #=================================================
 ynh_script_progression "Installing dependencies..."
 
-# Install Nodejs
 ynh_nodejs_install
 
-#=================================================
-# APP "BUILD" (DEPLOYING SOURCES, VENV, COMPILING ETC)
 #=================================================
 # DOWNLOAD, CHECK AND UNPACK SOURCE
 #=================================================
@@ -24,23 +21,17 @@ ynh_config_add --template="../sources/index.md" --destination="$data_dir/src/ind
 ynh_config_add --template="../sources/style.css" --destination="$data_dir/src/style.css"
 mv "../sources/_includes" "$data_dir/src/_includes"
 
-#REMOVEME? Assuming the install dir is setup using ynh_setup_source, the proper chmod/chowns are now already applied and it shouldn't be necessary to tweak perms | chown -R $app:www-data "$install_dir"
 #=================================================
 # SYSTEM CONFIGURATION
 #=================================================
 ynh_script_progression "Adding system configurations related to $app..."
 
-# Create a dedicated NGINX config using the conf/nginx.conf template
 ynh_config_add_nginx
 
-env_path="$PATH"
-# Create a dedicated systemd config
 ynh_config_add_systemd
 
 yunohost service add $app --description="Simpler site generator" --log="/var/log/$app/$app.log"
 
-#=================================================
-# APP INITIAL CONFIGURATION
 #=================================================
 # ADD A CONFIGURATION
 #=================================================
@@ -48,18 +39,14 @@ ynh_script_progression "Adding $app's configuration..."
 
 ynh_config_add --template=".eleventy.js" --destination="$install_dir/.eleventy.js"
 
-chmod 400 "$install_dir/.eleventy.js"
-chown $app:$app "$install_dir/.eleventy.js"
-
 #=================================================
 # INSTALL ELEVENTY
 #=================================================
 ynh_script_progression "Installing $app..."
 
 pushd $install_dir
-
-	ynh_hide_warnings ynh_exec_as_app node_load_PATH npm init -y
-	ynh_hide_warnings ynh_exec_as_app node_load_PATH npm install @11ty/eleventy --save-dev
+	ynh_hide_warnings ynh_exec_as_app npm init -y
+	ynh_hide_warnings ynh_exec_as_app npm install @11ty/eleventy --save-dev
 popd
 
 #=================================================
@@ -67,7 +54,6 @@ popd
 #=================================================
 ynh_script_progression "Starting $app's systemd service..."
 
-# Start a systemd service
 ynh_systemctl --service=$app --action="start"
 
 #=================================================
