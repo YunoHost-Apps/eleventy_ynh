@@ -5,7 +5,7 @@ No se debe editar a mano.
 
 # Eleventy para Yunohost
 
-[![Nivel de integración](https://dash.yunohost.org/integration/eleventy.svg)](https://dash.yunohost.org/appci/app/eleventy) ![Estado funcional](https://ci-apps.yunohost.org/ci/badges/eleventy.status.svg) ![Estado En Mantención](https://ci-apps.yunohost.org/ci/badges/eleventy.maintain.svg)
+[![Nivel de integración](https://dash.yunohost.org/integration/eleventy.svg)](https://ci-apps.yunohost.org/ci/apps/eleventy/) ![Estado funcional](https://ci-apps.yunohost.org/ci/badges/eleventy.status.svg) ![Estado En Mantención](https://ci-apps.yunohost.org/ci/badges/eleventy.maintain.svg)
 
 [![Instalar Eleventy con Yunhost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=eleventy)
 
@@ -19,7 +19,7 @@ No se debe editar a mano.
 Eleventy is a simpler static site generator.
 
 
-**Versión actual:** 2.0.1~ynh2
+**Versión actual:** 2.0.1~ynh3
 ## Documentaciones y recursos
 
 - Sitio web oficial: <https://www.11ty.dev/>
@@ -30,7 +30,7 @@ Eleventy is a simpler static site generator.
 
 ## Información para desarrolladores
 
-Por favor enviar sus correcciones a la [`branch testing`](https://github.com/YunoHost-Apps/eleventy_ynh/tree/testing
+Por favor enviar sus correcciones a la [rama `testing`](https://github.com/YunoHost-Apps/eleventy_ynh/tree/testing).
 
 Para probar la rama `testing`, sigue asÍ:
 
