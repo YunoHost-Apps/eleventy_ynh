@@ -18,7 +18,7 @@ Il NE doit PAS être modifié à la main.
 
 Eleventy est un générateur de site statique.
 
-**Version incluse :** 2.0.1~ynh3
+**Version incluse :** 2.0.1~ynh4
 ## Documentations et ressources
 
 - Site officiel de l’app : <https://www.11ty.dev/>

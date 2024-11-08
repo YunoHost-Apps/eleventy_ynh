@@ -19,7 +19,7 @@ It shall NOT be edited by hand.
 Eleventy is a simpler static site generator.
 
 
-**Shipped version:** 2.0.1~ynh3
+**Shipped version:** 2.0.1~ynh4
 ## Documentation and resources
 
 - Official app website: <https://www.11ty.dev/>

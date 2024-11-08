@@ -19,7 +19,7 @@ Ini TIDAK boleh diedit dengan tangan.
 Eleventy is a simpler static site generator.
 
 
-**Versi terkirim:** 2.0.1~ynh3
+**Versi terkirim:** 2.0.1~ynh4
 ## Dokumentasi dan sumber daya
 
 - Website aplikasi resmi: <https://www.11ty.dev/>
