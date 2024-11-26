@@ -3,7 +3,7 @@ module.exports = async function(eleventyConfig) {
         eleventyConfig.addWatchTarget("__DATA_DIR__/src/css/");
         return {
                 dir: {
-                        input: "__DATA_DIR__/src",
+                        input: "__INSTALL_DIR__/src",
                         output: "__DATA_DIR__/public",
                 },
         };
