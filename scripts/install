@@ -56,6 +56,8 @@ ynh_config_add --template="base.njk" --destination="$install_dir/src/_includes/b
 ynh_config_add --template="../sources/index.md" --destination="$install_dir/src/index.md"
 ynh_config_add --template="../sources/style.css" --destination="$install_dir/src/css/style.css"
 
+chmod 750 "$install_dir"
+chmod -R o-rwx "$install_dir"
 chown -R $app: "$install_dir"
 
 #=================================================
