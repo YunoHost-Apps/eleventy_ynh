@@ -36,13 +36,6 @@ ynh_config_add_systemd
 yunohost service add $app --description="Simpler site generator" --log="/var/log/$app/$app.log"
 
 #=================================================
-# ADD A CONFIGURATION
-#=================================================
-ynh_script_progression "Adding $app's configuration..."
-
-ynh_config_add --template="eleventy.config.cjs" --destination="$install_dir/eleventy.config.cjs"
-
-#=================================================
 # INSTALL ELEVENTY
 #=================================================
 ynh_script_progression "Installing $app..."
@@ -51,6 +44,13 @@ pushd $install_dir
 	ynh_hide_warnings ynh_exec_as_app npm init -y
 	ynh_hide_warnings ynh_exec_as_app npm install @11ty/eleventy@$(ynh_app_upstream_version) --save-dev
 popd
+
+#=================================================
+# ADD A CONFIGURATION
+#=================================================
+ynh_script_progression "Adding $app's configuration..."
+
+ynh_config_add --template="eleventy.config.cjs" --destination="$install_dir/eleventy.config.cjs"
 
 #=================================================
 # START SYSTEMD SERVICE
