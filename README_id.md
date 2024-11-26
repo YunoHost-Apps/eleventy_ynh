@@ -5,7 +5,9 @@ Ini TIDAK boleh diedit dengan tangan.
 
 # Eleventy untuk YunoHost
 
-[![Tingkat integrasi](https://dash.yunohost.org/integration/eleventy.svg)](https://ci-apps.yunohost.org/ci/apps/eleventy/) ![Status kerja](https://ci-apps.yunohost.org/ci/badges/eleventy.status.svg) ![Status pemeliharaan](https://ci-apps.yunohost.org/ci/badges/eleventy.maintain.svg)
+[![Tingkat integrasi](https://apps.yunohost.org/badge/integration/eleventy)](https://ci-apps.yunohost.org/ci/apps/eleventy/)
+![Status kerja](https://apps.yunohost.org/badge/state/eleventy)
+![Status pemeliharaan](https://apps.yunohost.org/badge/maintained/eleventy)
 
 [![Pasang Eleventy dengan YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=eleventy)
 
@@ -19,7 +21,7 @@ Ini TIDAK boleh diedit dengan tangan.
 Eleventy is a simpler static site generator.
 
 
-**Versi terkirim:** 2.0.1~ynh4
+**Versi terkirim:** 3.0.0~ynh1
 ## Dokumentasi dan sumber daya
 
 - Website aplikasi resmi: <https://www.11ty.dev/>
