@@ -7,7 +7,7 @@ description.fr = "Générateur de site plus simple. Transforme un répertoire de
 
 version = "3.0.0~ynh1"
 
-maintainers = []
+maintainers = ["eric_G"]
 
 [upstream]
 license = "MIT"
