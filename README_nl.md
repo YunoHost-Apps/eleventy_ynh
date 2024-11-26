@@ -20,6 +20,7 @@ Eleventy is a simpler static site generator.
 
 
 **Geleverde versie:** 3.0.0~ynh1
+
 ## Documentatie en bronnen
 
 - Officiele website van de app: <https://www.11ty.dev/>
