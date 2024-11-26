@@ -1,9 +1,9 @@
 module.exports = async function(eleventyConfig) {
-        eleventyConfig.addPassthroughCopy("__INSTALL_DIR__/src/css/");
-        eleventyConfig.addWatchTarget("__INSTALL_DIR__/src/css/");
+        eleventyConfig.addPassthroughCopy("./src/css/");
+        eleventyConfig.addWatchTarget("./src/css/");
         return {
                 dir: {
-                        input: "__INSTALL_DIR__/src",
+                        input: "src",
                         output: "__DATA_DIR__/public",
                 },
         };
