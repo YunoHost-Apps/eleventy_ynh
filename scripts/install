@@ -49,11 +49,10 @@ popd
 ynh_script_progression "Adding $app's configuration..."
 
 ynh_config_add --template="eleventy.config.cjs" --destination="$install_dir/eleventy.config.cjs"
+ynh_config_add --template="package.json" --destination="$install_dir/package.json"
 mkdir -p $install_dir/src/_includes
 mkdir -p $install_dir/src/css
 ynh_config_add --template="base.njk" --destination="$install_dir/src/_includes/base.njk"
-ynh_config_add --template="package.json" --destination="$install_dir/package.json"
-
 ynh_config_add --template="../sources/index.md" --destination="$install_dir/src/index.md"
 ynh_config_add --template="../sources/style.css" --destination="$install_dir/src/css/style.css"
 
