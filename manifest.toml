@@ -48,7 +48,7 @@ ram.runtime = "50M"
     group = "www-data:r-x"
     
     [resources.data_dir]
-    subdirs = ["src", "public"]
+    subdirs = ["src", "public", "src/css"]
     group = "www-data:r-x"
     
     [resources.permissions]
