@@ -1,4 +1,4 @@
-module.exports = function (eleventyConfig) {
+module.exports = async function(eleventyConfig) {
         eleventyConfig.addPassthroughCopy("__DATA_DIR__/src/style.css");
         return {
                 dir: {
