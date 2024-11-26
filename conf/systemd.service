@@ -9,7 +9,6 @@ Group=__APP__
 WorkingDirectory=__INSTALL_DIR__/
 Environment="PATH=__PATH_WITH_NODEJS__"
 Environment="NODE_ENV=production"
-#ExecStart=__NODEJS_DIR__/node __INSTALL_DIR__/cmd.js --serve --port=__PORT__ --watch --quiet
 ExecStart=__NODEJS_DIR__/npx @11ty/eleventy --serve --port=__PORT__ --watch --quiet
 Restart=always
 
