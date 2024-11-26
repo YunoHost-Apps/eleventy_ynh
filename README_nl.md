@@ -5,7 +5,9 @@ Hij mag NIET handmatig aangepast worden.
 
 # Eleventy voor Yunohost
 
-[![Integratieniveau](https://dash.yunohost.org/integration/eleventy.svg)](https://ci-apps.yunohost.org/ci/apps/eleventy/) ![Mate van functioneren](https://ci-apps.yunohost.org/ci/badges/eleventy.status.svg) ![Onderhoudsstatus](https://ci-apps.yunohost.org/ci/badges/eleventy.maintain.svg)
+[![Integratieniveau](https://apps.yunohost.org/badge/integration/eleventy)](https://ci-apps.yunohost.org/ci/apps/eleventy/)
+![Mate van functioneren](https://apps.yunohost.org/badge/state/eleventy)
+![Onderhoudsstatus](https://apps.yunohost.org/badge/maintained/eleventy)
 
 [![Eleventy met Yunohost installeren](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=eleventy)
 
@@ -20,7 +22,6 @@ Eleventy is a simpler static site generator.
 
 
 **Geleverde versie:** 3.0.0~ynh1
-
 ## Documentatie en bronnen
 
 - Officiele website van de app: <https://www.11ty.dev/>

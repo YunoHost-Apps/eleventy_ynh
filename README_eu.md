@@ -5,7 +5,9 @@ EZ editatu eskuz.
 
 # Eleventy YunoHost-erako
 
-[![Integrazio maila](https://dash.yunohost.org/integration/eleventy.svg)](https://ci-apps.yunohost.org/ci/apps/eleventy/) ![Funtzionamendu egoera](https://ci-apps.yunohost.org/ci/badges/eleventy.status.svg) ![Mantentze egoera](https://ci-apps.yunohost.org/ci/badges/eleventy.maintain.svg)
+[![Integrazio maila](https://apps.yunohost.org/badge/integration/eleventy)](https://ci-apps.yunohost.org/ci/apps/eleventy/)
+![Funtzionamendu egoera](https://apps.yunohost.org/badge/state/eleventy)
+![Mantentze egoera](https://apps.yunohost.org/badge/maintained/eleventy)
 
 [![Instalatu Eleventy YunoHost-ekin](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=eleventy)
 
@@ -20,7 +22,6 @@ Eleventy is a simpler static site generator.
 
 
 **Paketatutako bertsioa:** 3.0.0~ynh1
-
 ## Dokumentazioa eta baliabideak
 
 - Aplikazioaren webgune ofiziala: <https://www.11ty.dev/>
