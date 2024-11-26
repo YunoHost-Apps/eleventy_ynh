@@ -45,9 +45,10 @@ ram.runtime = "50M"
     [resources.system_user]
 
     [resources.install_dir]
-    
+    subdirs = ["src", "src/css", "src/_includes"]
+
     [resources.data_dir]
-    subdirs = ["src", "public", "src/css", "src/_includes"]
+    subdirs = ["public"]
     group = "www-data:r-x"
     
     [resources.permissions]
