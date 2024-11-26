@@ -15,7 +15,7 @@ ynh_systemctl --service=$app --action="stop"
 #=================================================
 ynh_script_progression "Upgrading source files..."
 
-ynh_setup_source --dest_dir="$install_dir" --full_replace --keep="eleventy.config.cjs"
+ynh_setup_source --dest_dir="$install_dir" --full_replace --keep="eleventy.config.cjs package.json"
 
 #=================================================
 # UPGRADE DEPENDENCIES
@@ -49,7 +49,7 @@ ynh_script_progression "Installing $app..."
 
 pushd $install_dir
 	ynh_hide_warnings ynh_exec_as_app npm init -y
-	ynh_hide_warnings ynh_exec_as_app npm install @11ty/eleventy --save-dev
+	ynh_hide_warnings ynh_exec_as_app npm install @11ty/eleventy@$(ynh_app_upstream_version) --save-dev
 popd
 
 #=================================================
