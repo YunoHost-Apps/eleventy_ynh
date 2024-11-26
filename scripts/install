@@ -16,7 +16,7 @@ ynh_nodejs_install
 ynh_script_progression "Setting up source files..."
 
 install_dir="/var/www/$app"
-mkdir "$install_dir"
+mkdir -p "$install_dir"
 
 chmod 750 "$install_dir"
 chmod -R o-rwx "$install_dir"
