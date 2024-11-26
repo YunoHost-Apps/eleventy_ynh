@@ -37,7 +37,7 @@ yunohost service add $app --description="Simpler site generator" --log="/var/log
 #=================================================
 ynh_script_progression "Adding $app's configuration..."
 
-ynh_config_add --template="eleventy.config.js" --destination="$install_dir/eleventy.config.cjs"
+ynh_config_add --template="eleventy.config.cjs" --destination="$install_dir/eleventy.config.cjs"
 
 #=================================================
 # INSTALL ELEVENTY
