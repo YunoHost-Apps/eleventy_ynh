@@ -49,13 +49,13 @@ popd
 ynh_script_progression "Adding $app's configuration..."
 
 ynh_config_add --template="eleventy.config.cjs" --destination="$install_dir/eleventy.config.cjs"
-ynh_config_add --template="base.njk" --destination="$data_dir/src/_includes/base.njk"
+ynh_config_add --template="base.njk" --destination="$install_dir/src/_includes/base.njk"
 ynh_config_add --template="package.json" --destination="$install_dir/package.json"
 
-ynh_config_add --template="../sources/index.md" --destination="$data_dir/src/index.md"
-ynh_config_add --template="../sources/style.css" --destination="$data_dir/src/css/style.css"
+ynh_config_add --template="../sources/index.md" --destination="$install_dir/src/index.md"
+ynh_config_add --template="../sources/style.css" --destination="$install_dir/src/css/style.css"
 
-chown -R $app:www-data "$install_dir"
+chown -R $app: "$install_dir"
 
 #=================================================
 # START SYSTEMD SERVICE
