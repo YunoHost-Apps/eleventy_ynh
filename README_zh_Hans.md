@@ -5,7 +5,9 @@
 
 # YunoHost 上的 Eleventy
 
-[![集成程度](https://dash.yunohost.org/integration/eleventy.svg)](https://ci-apps.yunohost.org/ci/apps/eleventy/) ![工作状态](https://ci-apps.yunohost.org/ci/badges/eleventy.status.svg) ![维护状态](https://ci-apps.yunohost.org/ci/badges/eleventy.maintain.svg)
+[![集成程度](https://apps.yunohost.org/badge/integration/eleventy)](https://ci-apps.yunohost.org/ci/apps/eleventy/)
+![工作状态](https://apps.yunohost.org/badge/state/eleventy)
+![维护状态](https://apps.yunohost.org/badge/maintained/eleventy)
 
 [![使用 YunoHost 安装 Eleventy](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=eleventy)
 
@@ -19,7 +21,7 @@
 Eleventy is a simpler static site generator.
 
 
-**分发版本：** 2.0.1~ynh4
+**分发版本：** 3.0.0~ynh1
 ## 文档与资源
 
 - 官方应用网站： <https://www.11ty.dev/>

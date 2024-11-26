@@ -5,7 +5,7 @@ name = "Eleventy"
 description.en = "Simpler site generator. Transforms a directory of templates (of varying types) into HTML"
 description.fr = "Générateur de site plus simple. Transforme un répertoire de modèles (de différents types) en HTML"
 
-version = "2.0.1~ynh4"
+version = "3.0.0~ynh1"
 
 maintainers = []
 
@@ -16,11 +16,14 @@ admindoc = "https://www.11ty.dev/docs/"
 code = "https://github.com/11ty/eleventy/"
 
 [integration]
-yunohost = ">= 11.2"
+yunohost = ">= 11.2.30"
+helpers_version = "2.1"
 architectures = "all"
 multi_instance = true
+
 ldap = false
 sso = false
+
 disk = "50M"
 ram.build = "500M"
 ram.runtime = "50M"
@@ -38,8 +41,8 @@ ram.runtime = "50M"
     [resources.sources]
 
         [resources.sources.main]
-        url = "https://github.com/11ty/eleventy/archive/refs/tags/v2.0.1.tar.gz"
-        sha256 = "8ca03ce7c7980c93acde3fa7d7b916aa85d4ce206c5222cf508188aa4a7649a0"
+        url = "https://github.com/11ty/eleventy/archive/refs/tags/v3.0.0.tar.gz"
+        sha256 = "ab6c0f51f733e865de347213b63c5f3383c06ce325db347a89c57eed313f0e21"
         autoupdate.strategy = "latest_github_tag"
 
     [resources.system_user]
