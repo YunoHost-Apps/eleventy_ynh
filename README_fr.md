@@ -18,7 +18,8 @@ Il NE doit PAS être modifié à la main.
 
 ## Vue d’ensemble
 
-Eleventy est un générateur de site statique.
+11ty est un générateur de site statique plus simple. Une alternative à Jekyll. Écrit en JavaScript. Transforme un répertoire de modèles (de différents types) en HTML.
+Fonctionne avec HTML, Markdown, JavaScript, Liquid, Nunjucks, avec des modules complémentaires pour WebC, Sass, Vue, Svelte, TypeScript, JSX et bien d'autres !
 
 **Version incluse :** 3.0.0~ynh1
 ## Documentations et ressources
