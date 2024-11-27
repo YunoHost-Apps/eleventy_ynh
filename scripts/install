@@ -19,7 +19,7 @@ ynh_setup_source --dest_dir="$install_dir"
 
 #ynh_config_add --template="../sources/index.md" --destination="$data_dir/src/index.md"
 #ynh_config_add --template="../sources/style.css" --destination="$data_dir/src/style.css"
-mv "../sources/src/" "$data_dir/src/"
+mv "../sources/src" "$data_dir/src"
 
 #=================================================
 # SYSTEM CONFIGURATION
