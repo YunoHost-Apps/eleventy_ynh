@@ -70,4 +70,5 @@ ynh_systemctl --service=$app --action="start"
 #=================================================
 # END OF SCRIPT
 #=================================================
+
 ynh_script_progression "Installation of $app completed"
