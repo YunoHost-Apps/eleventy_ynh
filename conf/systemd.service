@@ -9,7 +9,7 @@ Group=__APP__
 WorkingDirectory=__INSTALL_DIR__/
 Environment="PATH=__PATH_WITH_NODEJS__"
 Environment="NODE_ENV=production"
-ExecStart=__NODEJS_DIR__/npm start --watch --quiet
+ExecStart=__NODEJS_DIR__/npm build --watch --quiet
 Restart=always
 
 # Sandboxing options to harden security
