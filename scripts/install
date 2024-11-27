@@ -46,7 +46,7 @@ ynh_script_progression "Installing $app..."
 
 pushd $install_dir
 	ynh_hide_warnings ynh_exec_as_app npm init -y
-	ynh_hide_warnings ynh_exec_as_app npm install @11ty/eleventy@$(ynh_app_upstream_version) --save-dev
+	ynh_hide_warnings ynh_exec_as_app npm install @11ty/eleventy --save-dev
 popd
 
 #=================================================
