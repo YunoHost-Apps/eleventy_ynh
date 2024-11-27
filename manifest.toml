@@ -7,7 +7,7 @@ description.fr = "Générateur de site plus simple. Transforme un répertoire de
 
 version = "3.0.0~ynh1"
 
-maintainers = []
+maintainers = ["eric_G"]
 
 [upstream]
 license = "MIT"
@@ -32,6 +32,10 @@ ram.runtime = "50M"
     [install.domain]
     type = "domain"
 
+    [install.path]
+    type = "path"
+    default = "/eleventy"
+
     [install.init_main_permission]
     type = "group"
     default = "visitors"
@@ -50,9 +54,8 @@ ram.runtime = "50M"
     [resources.install_dir]
 
     [resources.data_dir]
-    subdirs = ["src", "public"]
+    subdirs = ["public"]
+    group = "www-data:r-x"
 
     [resources.permissions]
     main.url = "/"
-
-    [resources.ports]

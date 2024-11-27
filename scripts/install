@@ -17,10 +17,6 @@ ynh_script_progression "Setting up source files..."
 
 ynh_setup_source --dest_dir="$install_dir"
 
-ynh_config_add --template="../sources/index.md" --destination="$data_dir/src/index.md"
-ynh_config_add --template="../sources/style.css" --destination="$data_dir/src/style.css"
-mv "../sources/_includes" "$data_dir/src/_includes"
-
 #=================================================
 # SYSTEM CONFIGURATION
 #=================================================
@@ -38,6 +34,8 @@ yunohost service add $app --description="Simpler site generator" --log="/var/log
 ynh_script_progression "Adding $app's configuration..."
 
 ynh_config_add --template="eleventy.config.cjs" --destination="$install_dir/eleventy.config.cjs"
+
+mv "../sources/src" "$data_dir/src"
 
 #=================================================
 # INSTALL ELEVENTY
@@ -59,4 +57,5 @@ ynh_systemctl --service=$app --action="start"
 #=================================================
 # END OF SCRIPT
 #=================================================
+
 ynh_script_progression "Installation of $app completed"
