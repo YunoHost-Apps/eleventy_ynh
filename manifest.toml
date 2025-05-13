@@ -2,10 +2,10 @@ packaging_format = 2
 
 id = "eleventy"
 name = "Eleventy"
-description.en = "Simpler site generator. Transforms a directory of templates (of varying types) into HTML"
-description.fr = "Générateur de site plus simple. Transforme un répertoire de modèles (de différents types) en HTML"
+description.en = "Simpler site generator"
+description.fr = "Générateur de site plus simple"
 
-version = "3.0.0~ynh1"
+version = "3.1.0~ynh1"
 
 maintainers = ["eric_G"]
 
@@ -45,8 +45,8 @@ ram.runtime = "50M"
     [resources.sources]
 
         [resources.sources.main]
-        url = "https://github.com/11ty/eleventy/archive/refs/tags/v3.0.0.tar.gz"
-        sha256 = "ab6c0f51f733e865de347213b63c5f3383c06ce325db347a89c57eed313f0e21"
+        url = "https://github.com/11ty/eleventy/archive/refs/tags/v3.1.0.tar.gz"
+        sha256 = "5c64aa37c1ee10a1d35989534f976efd28375b2bff4ed4e8c40a1bb9581fbf07"
         autoupdate.strategy = "latest_github_tag"
 
     [resources.system_user]
