@@ -5,7 +5,7 @@ name = "Eleventy"
 description.en = "Simpler site generator"
 description.fr = "Générateur de site plus simple"
 
-version = "3.1.0~ynh1"
+version = "3.1.1~ynh1"
 
 maintainers = ["eric_G"]
 
@@ -45,8 +45,8 @@ ram.runtime = "50M"
     [resources.sources]
 
         [resources.sources.main]
-        url = "https://github.com/11ty/eleventy/archive/refs/tags/v3.1.0.tar.gz"
-        sha256 = "5c64aa37c1ee10a1d35989534f976efd28375b2bff4ed4e8c40a1bb9581fbf07"
+        url = "https://github.com/11ty/eleventy/archive/refs/tags/v3.1.1.tar.gz"
+        sha256 = "83900bffd02d6f15f34c7169ffb81f3a5ecb4db73249606a50f5b9908717d92a"
         autoupdate.strategy = "latest_github_tag"
 
     [resources.system_user]
