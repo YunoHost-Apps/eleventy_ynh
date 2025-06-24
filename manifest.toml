@@ -45,8 +45,8 @@ ram.runtime = "50M"
     [resources.sources]
 
         [resources.sources.main]
-        url = "https://github.com/11ty/eleventy/archive/refs/tags/v3.1.1.tar.gz"
-        sha256 = "83900bffd02d6f15f34c7169ffb81f3a5ecb4db73249606a50f5b9908717d92a"
+        url = "https://github.com/11ty/eleventy/archive/refs/tags/v3.1.2.tar.gz"
+        sha256 = "a79377d31f753e32d350b31b9f7ab6105278180c77ea7383f4ff7b91295c1488"
         autoupdate.strategy = "latest_github_tag"
 
     [resources.system_user]
