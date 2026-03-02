@@ -10,3 +10,6 @@ module.exports = async function(eleventyConfig) {
                 },
         };
 };
+module.exports.config = {
+        pathPrefix: "__PATH__/",
+}
