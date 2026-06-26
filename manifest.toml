@@ -45,8 +45,8 @@ ram.runtime = "50M"
     [resources.sources]
 
         [resources.sources.main]
-        url = "https://github.com/11ty/eleventy/archive/refs/tags/v3.1.6.tar.gz"
-        sha256 = "e065fba4ed927f27bc5c426557696031dba14ea4f825043375c19101c1d50ed3"
+        url = "https://github.com/11ty/buildawesome/archive/refs/tags/v3.1.6.tar.gz"
+        sha256 = "cbd91def5a0b1fdc7118c60ca9b20db80a49a2eb3c298ef55088182856e622e9"
         autoupdate.strategy = "latest_github_tag"
 
     [resources.system_user]
