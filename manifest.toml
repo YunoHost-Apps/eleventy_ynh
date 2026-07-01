@@ -13,10 +13,10 @@ maintainers = ["eric_G"]
 license = "MIT"
 website = "https://www.11ty.dev/"
 admindoc = "https://www.11ty.dev/docs/"
-code = "https://github.com/11ty/eleventy/"
+code = "https://github.com/11ty/buildawesome"
 
 [integration]
-yunohost = ">= 12.1.38"
+yunohost = ">= 12.1.39"
 helpers_version = "2.1"
 architectures = "all"
 multi_instance = true
@@ -45,7 +45,7 @@ ram.runtime = "50M"
     [resources.sources]
 
         [resources.sources.main]
-        url = "https://github.com/11ty/eleventy/archive/refs/tags/v3.1.6.tar.gz"
+        url = "https://github.com/11ty/buildawesome/archive/refs/tags/v3.1.6.tar.gz"
         sha256 = "cbd91def5a0b1fdc7118c60ca9b20db80a49a2eb3c298ef55088182856e622e9"
         autoupdate.strategy = "latest_github_tag"
 
@@ -61,5 +61,5 @@ ram.runtime = "50M"
     main.url = "/"
 
     [resources.nodejs]
-    version = "22"
+    version = "24"
     
