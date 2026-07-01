@@ -22,7 +22,7 @@ Simpler site generator
 
 [![Automatic tests level](https://apps.yunohost.org/badge/cilevel/eleventy)](https://ci-apps.yunohost.org/ci/apps/eleventy/)
 
-🛠️ Upstream Eleventy repository: <https://github.com/11ty/eleventy/>
+🛠️ Upstream Eleventy repository: <https://github.com/11ty/buildawesome>
 
 Pull request are welcome and should target the [`testing` branch](https://github.com/YunoHost-Apps/eleventy_ynh/tree/testing).
 
