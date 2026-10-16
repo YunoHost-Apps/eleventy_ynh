@@ -11,7 +11,7 @@ It shall NOT be edited by hand.
 Simpler site generator
 
 [![🌐 Official app website](https://img.shields.io/badge/Official_app_website-darkgreen?style=for-the-badge)](https://www.11ty.dev/)
-[![Version: 3.1.6~ynh1](https://img.shields.io/badge/Version-3.1.6~ynh1-rgb(18,138,11)?style=for-the-badge)](https://ci-apps.yunohost.org/ci/apps/eleventy/)
+[![Version: 3.1.7~ynh1](https://img.shields.io/badge/Version-3.1.7~ynh1-rgb(18,138,11)?style=for-the-badge)](https://ci-apps.yunohost.org/ci/apps/eleventy/)
 
 <div align="center">
 <a href="https://apps.yunohost.org/app/eleventy"><img height="100px" src="https://github.com/YunoHost/yunohost-artwork/raw/refs/heads/main/badges/neopossum-badges/badge_more_info_on_the_appstore.svg"/></a>
@@ -22,7 +22,7 @@ Simpler site generator
 
 [![Automatic tests level](https://apps.yunohost.org/badge/cilevel/eleventy)](https://ci-apps.yunohost.org/ci/apps/eleventy/)
 
-🛠️ Upstream Eleventy repository: <https://github.com/11ty/eleventy/>
+🛠️ Upstream Eleventy repository: <https://github.com/11ty/buildawesome>
 
 Pull request are welcome and should target the [`testing` branch](https://github.com/YunoHost-Apps/eleventy_ynh/tree/testing).
 
